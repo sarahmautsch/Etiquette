@@ -1,0 +1,6 @@
+framework module Pods_Etiquette {
+  umbrella header "Pods-Etiquette-umbrella.h"
+
+  export *
+  module * { export * }
+}
