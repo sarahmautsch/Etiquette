@@ -7,4 +7,5 @@ target 'Etiquette' do
 
   # Pods for Etiquette
     pod 'SnapKit'
+    pod 'SwiftySound'
 end

@@ -17,6 +17,7 @@
 		44302F8E222AE4CE00451BC8 /* CeraRoundPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44302F8A222AE4CE00451BC8 /* CeraRoundPro-Light.otf */; };
 		44302F8F222AE4CE00451BC8 /* CeraRoundPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44302F8B222AE4CE00451BC8 /* CeraRoundPro-Regular.otf */; };
 		44302F91222AF4D700451BC8 /* SMInfoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44302F90222AF4D700451BC8 /* SMInfoWidget.swift */; };
+		4485AE882247A5E100F6673F /* Alert 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4485AE872247A5E100F6673F /* Alert 2.m4a */; };
 		44F5A1D8222C2D8600E711B0 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5A1D7222C2D8600E711B0 /* Helpers.swift */; };
 		44F5A1DA222C2D8E00E711B0 /* Paint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5A1D9222C2D8E00E711B0 /* Paint.swift */; };
 		921CECF0B3D83F8BC8A422BA /* Pods_Etiquette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5F5D24DBD3ADFC382860E6 /* Pods_Etiquette.framework */; };
@@ -36,6 +37,7 @@
 		44302F8A222AE4CE00451BC8 /* CeraRoundPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CeraRoundPro-Light.otf"; path = "../../../../../99_Organize/95_Fonts/Cera Round Pro/CeraRoundPro-Light.otf"; sourceTree = "<group>"; };
 		44302F8B222AE4CE00451BC8 /* CeraRoundPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CeraRoundPro-Regular.otf"; path = "../../../../../99_Organize/95_Fonts/Cera Round Pro/CeraRoundPro-Regular.otf"; sourceTree = "<group>"; };
 		44302F90222AF4D700451BC8 /* SMInfoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMInfoWidget.swift; sourceTree = "<group>"; };
+		4485AE872247A5E100F6673F /* Alert 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alert 2.m4a"; sourceTree = "<group>"; };
 		44F5A1D7222C2D8600E711B0 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		44F5A1D9222C2D8E00E711B0 /* Paint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paint.swift; sourceTree = "<group>"; };
 		4F5F5D24DBD3ADFC382860E6 /* Pods_Etiquette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Etiquette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,7 @@
 				44302F8A222AE4CE00451BC8 /* CeraRoundPro-Light.otf */,
 				44302F89222AE4CE00451BC8 /* CeraRoundPro-Medium.otf */,
 				44302F8B222AE4CE00451BC8 /* CeraRoundPro-Regular.otf */,
+				4485AE872247A5E100F6673F /* Alert 2.m4a */,
 				44F5A1D7222C2D8600E711B0 /* Helpers.swift */,
 				44F5A1D9222C2D8E00E711B0 /* Paint.swift */,
 				44302F7B222ADFFF00451BC8 /* LaunchScreen.storyboard */,
@@ -174,6 +177,7 @@
 				44302F8E222AE4CE00451BC8 /* CeraRoundPro-Light.otf in Resources */,
 				44302F7A222ADFFF00451BC8 /* Assets.xcassets in Resources */,
 				44302F8C222AE4CE00451BC8 /* CeraRoundPro-Bold.otf in Resources */,
+				4485AE882247A5E100F6673F /* Alert 2.m4a in Resources */,
 				44302F8F222AE4CE00451BC8 /* CeraRoundPro-Regular.otf in Resources */,
 				44302F78222ADFFD00451BC8 /* Main.storyboard in Resources */,
 			);
@@ -192,12 +196,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Etiquette/Pods-Etiquette-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -385,13 +391,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W4KVDZHABB;
+				DEVELOPMENT_TEAM = 6NDKXMMXT5;
 				INFOPLIST_FILE = Etiquette/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarahmautsch.Etiquette;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaab.Etiquette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -404,13 +410,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W4KVDZHABB;
+				DEVELOPMENT_TEAM = 6NDKXMMXT5;
 				INFOPLIST_FILE = Etiquette/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarahmautsch.Etiquette;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaab.Etiquette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

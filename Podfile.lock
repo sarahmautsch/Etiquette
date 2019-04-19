@@ -1,16 +1,20 @@
 PODS:
   - SnapKit (4.2.0)
+  - SwiftySound (1.0.0)
 
 DEPENDENCIES:
   - SnapKit
+  - SwiftySound
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - SnapKit
+    - SwiftySound
 
 SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftySound: b9c3370956fd4ed65ed79d45563070077a50a2cd
 
-PODFILE CHECKSUM: 8590e8cf9bb7929f2b3f331b036e942da7caf78c
+PODFILE CHECKSUM: a99518f2752c0d38697c5e4cfa9a6e9633764f92
 
 COCOAPODS: 1.6.1
